@@ -18,20 +18,21 @@ return (
 </p>
 </div>
 
-<div className="bg-white w-1/4 h-30 shadow-md p-7 flex flex-col rounded-lg">
+<div className="bg-white w-1/3 h-30 shadow-md p-7 flex flex-col rounded-lg">
 <input type="email" className="mb-2 p-3 text-lg border-1 outline-blue-600 border-gray-300 rounded-lg border-2"  name="email" id="email" placeholder="Email address or phone number" />
 <input type="password" className="mb-2 p-3 border text-lg outline-blue-600 border-gray-300 rounded-lg" name="password" id="password" placeholder="Enter Your password" />
 <button className="mt-4 mb-1 bg-blue-600 text-xl hover:bg-blue-700 text-white rounded-md font-bold  py-2" type="submit">log In</button>
 <span className="text-center text-blue-500 mb-6 cursor-pointer hover:underline my-1">forgotten password</span>
-<hr />
+<hr/>
 <button className="mt-3 mx-auto px-4 bg-green-500 hover:bg-green-600 text-lg text-white rounded-md font-bold w-fit py-2" type="submit">Create new account</button>
-
 </div>
 
-
 </section>
+
 </body>
+
 </>
+
 );
 } 
 
